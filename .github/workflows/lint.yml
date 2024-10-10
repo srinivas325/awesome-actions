@@ -1,5 +1,6 @@
 name: Lint Awesome List
-on: [push, pull_request, workflow_dispatch]
+on:
+  workflow_dispatch:
 jobs:
   lint:
     name: Lint
